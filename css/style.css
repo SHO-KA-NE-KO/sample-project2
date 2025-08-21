@@ -1,0 +1,16 @@
+strong{color: blue;}
+li{color: gray;}
+.highlight{color: #ff0000;font-weight: bold;}
+p{font-size: 1.5rem;}
+p{text-align: left;}
+em{background-color: rgb(206, 205, 205);}
+li{font-weight: bold;}
+h1{font-family: "Sawarabi Mincho";}
+h2{font-family: "Sawarabi Mincho";}
+p{font-family: "Sawarabi Mincho";}
+em {border: 2px solid black;}
+em{padding: 10px;}
+.box {
+  background-color: lightyellow; /* 背景色 */
+  border: 2px solid orange;     /* オレンジの実線枠 */
+  padding: 10px;
