@@ -1,16 +1,32 @@
-strong{color: blue;}
-li{color: gray;}
-.highlight{color: #ff0000;font-weight: bold;}
-p{font-size: 1.5rem;}
-p{text-align: left;}
-em{background-color: rgb(206, 205, 205);}
-li{font-weight: bold;}
-h1{font-family: "Sawarabi Mincho";}
-h2{font-family: "Sawarabi Mincho";}
-p{font-family: "Sawarabi Mincho";}
-em {border: 2px solid black;}
-em{padding: 10px;}
-.box {
-  background-color: lightyellow; /* 背景色 */
-  border: 2px solid orange;     /* オレンジの実線枠 */
+body {
+  font-family: sans-serif;
+  background: #501ca3;
+  margin: 20px;
+}
+
+/* divで囲んだprofile全体 */
+.profile {
+  background: rgb(63, 38, 95);
+  border: 1px solid #a70a0a;
+  border-radius: 8px;
+  padding: 20px;
+  max-width: 500px;
+  margin: auto;
+}
+
+/* infoセクション */
+.info {
+  margin-bottom: 20px;
+  background: #215da1;
   padding: 10px;
+  border-radius: 6px;
+}
+
+/* spanで強調する部分 */
+.highlight {
+  color: #0077cc;
+  font-weight: bold;
+  background: #0f70ca;
+  padding: 2px 4px;
+  border-radius: 4px;
+}

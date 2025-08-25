@@ -1,38 +1,32 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="ja">
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale-1.0">
-    <link href="https://fonts.googleapis.com/css?family=Sawarabi+Mincho" rel="stylesheet">
-    <link rel="stylesheet" href="css/style.css">
-    <title>SK sample project</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>divとspanの学習</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
-        <h1>自己紹介ページ</h1>
-    </header>
-    <main>
-        <section class="profile">
-            <img src="img/icon.jpg" alt="アイコン" width="150">
-            <p>こんにちは<strong>SHO KANEKO</strong>です。</p>
-            <h2><em>出身</em></h2>
-            <p>埼玉出身です。勤務先は東京です。</p>
-        </section>
-    <h2><em>趣味</em></h2>
-    <ul>
-        <li><span style="color: red;">プログラミング</span></li>
-        <p class="highlight">※WEB開発の勉強を始めたばかりです。</p>
-        <li>読書</li>
-        <li>資産運用</li>    
-    </ul>
-    <h2>平日の流れ</h2>
-    <ol>
-        <li>5:00:起床</li>
-        <li>8:00:出社</li>
-        <li>17:00:退勤</li>    
-    </ol>
-    <div class="box">
-         背景色と枠線の練習
+
+  <!-- divで大きな区切りを作る -->
+  <div class="profile">
+    <h1>自己紹介</h1>
+    
+    <!-- divはまとまりを作る -->
+    <div class="info">
+      <p>名前：山田 太郎</p>
+      <p>職業：<span class="highlight">Webエンジニア</span></p>
+      <p>趣味：<span class="highlight">読書</span>・<span class="highlight">旅行</span></p>
     </div>
+
+    <div class="bio">
+      <p>
+        こんにちは！<br>
+        私は<span class="highlight">HTML/CSS</span>の学習を始めたばかりです。<br>
+        <span class="highlight">div</span>は「大きなまとまり」、<span class="highlight">span</span>は「小さな部分装飾」に使います。
+      </p>
+    </div>
+  </div>
+
 </body>
 </html>
